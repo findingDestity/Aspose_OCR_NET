@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using Aspose.OCR;
 using System.IO;
@@ -19,7 +18,7 @@ namespace RecognitionBlock
                 //Create OcrEngine instance and assign 
                 //image, language and image configuration
                 OcrEngine ocrEngine = new OcrEngine();
-                ocrEngine.Image = ImageStream.FromFile("Sample.bmp");
+                ocrEngine.Image = ImageStream.FromFile("./../../Samples/Sample.bmp");
 
                 ocrEngine.Languages.AddLanguage(Language.Load("english"));
                 ocrEngine.Config.NeedRotationCorrection = false;

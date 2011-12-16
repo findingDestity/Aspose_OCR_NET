@@ -1,7 +1,6 @@
 Imports Microsoft.VisualBasic
 Imports System
 Imports System.Collections.Generic
-Imports System.Linq
 Imports System.Text
 Imports Aspose.OCR
 Imports System.IO
@@ -16,7 +15,7 @@ Namespace RecognitionBlock
 				'Create OcrEngine instance and assign 
 				'image, language and image configuration
 				Dim ocrEngine As OcrEngine = New OcrEngine()
-				ocrEngine.Image = ImageStream.FromFile("Sample.bmp")
+                ocrEngine.Image = ImageStream.FromFile("./../../Samples/Sample.bmp")
 
 				ocrEngine.Languages.AddLanguage(Language.Load("english"))
 				ocrEngine.Config.NeedRotationCorrection = False

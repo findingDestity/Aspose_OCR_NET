@@ -31,7 +31,7 @@ All examples are each contained in separate folders at the root of the repositor
 
 ###Data
 
-+ Input Documents - Each example contains a Sample directory which contains any sample Documents used in the example.
++ Input Documents - Each example contains a Samples directory which contains any sample Documents used in the example.
 
 ###Output
 
@@ -45,7 +45,7 @@ For further details on setting up the examples and any requirements refer to the
 
 ##Download the Examples
 
-Please [Download the Aspose.OCR for .NET Examples](https://github.com/asposeocr/Aspose_OCR_NET) to try them at your end.
+Please [Download the Aspose.OCR for .NET Examples](https://github.com/asposeocr/Aspose_OCR_NET/downloads) to try them at your end.
 
 
 ##How to use the Examples?
@@ -54,11 +54,11 @@ Please [Download the Aspose.OCR for .NET Examples](https://github.com/asposeocr/
 
 2. Each version of Aspose.OCR for .NET uses resources contained in a ZIP file. Respective ZIP file can be downloaded from http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1188.aspx
 
-3. Download the examples from the above link. 
+3. Download the examples from the above link. The solution files for Microsoft Visual Studio 2005, 2008 and 2010 are provided with the examples.
 
-4. Once downloaded you can open Visual Studio, Create a new console application and replace default 'Program.cs' or 'Program.vb' file with the downloaded one.
+4. Once downloaded you can open the examples by opening the appropriate solution file (.sln) according to the version of Visual Studio installed on your system.
 
-5. Update resource file and Sample.bmp file paths and click on "Debug" menu and choose one of the following menu items to start the example:
+5. Update resource file,s path and click on "Debug" menu and choose one of the following menu items to start the example:
 
 - Start Debugging
 - Start Without Debugging
